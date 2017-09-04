@@ -1,0 +1,28 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+* {
+	/*box-sizing: border-box;*/
+}
+
+body {
+	background-image: url(londres-opaco.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+}
+
+img {
+	display: none;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
